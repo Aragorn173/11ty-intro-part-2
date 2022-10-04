@@ -1,5 +1,9 @@
+@use "reset";
+
+$base-size: 1rem; 
+
 body {
-    max-width: min(80ch, 100vw - 1rem);
+    max-width: min(80ch, 100vw - $base-size);
     margin-inline: auto;
 }
 
