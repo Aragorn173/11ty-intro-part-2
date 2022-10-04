@@ -6,8 +6,7 @@ title: Home
 
 # Hello world
 
-{% image "/images/alexander.png" %}
-
+{% image "./src/images/spirit-animal.jpg", "photo of my spirit animal", "(min-width: 30em) 50vw, 100vw" %}
 
 Världens *roligaste* **hellow** sida
 
